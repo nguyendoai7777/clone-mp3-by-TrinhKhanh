@@ -1,0 +1,38 @@
+.container {
+    max-width: 1024px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.no-padding {
+    margin-left: 0;
+    margin-right: 0;
+    [class*='col-'] {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        transition: all 0.3s;
+    }
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    background-color: #0D021A;
+    color: #fff;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
+a{
+    text-decoration: none!important;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+}

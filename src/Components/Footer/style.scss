@@ -1,0 +1,22 @@
+footer{
+    padding: 50px 0;
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    .logo{
+        background: url("https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.1/images/logo-mp-3.png");
+        background-size: cover;
+        display: block;
+        width: 50px;
+        height: 50px;
+        line-height: 0;
+        font-size: 0;
+    }
+    span{
+        align-self: center;
+        padding-left: 10px;
+        font-size: 12px;
+        color: #888;
+    }
+}
